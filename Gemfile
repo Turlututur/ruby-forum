@@ -2,6 +2,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
+gem 'sassc-rails'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
@@ -46,6 +47,7 @@ gem "bootsnap", require: false
 gem "haml", "~> 5.0", ">= 5.0.4"
 gem "simple_form", "~> 4.0", ">= 4.0.1"
 gem "devise", "~> 4.4", ">= 4.4.3"
+
 
 gem "rufo"
 # Use Sass to process CSS
