@@ -21,4 +21,4 @@ Things you may want to cover:
 
 - Deployment instructions
 
-- Actuellement à l'étape 14 !
+- Actuellement à l'étape 20 !
