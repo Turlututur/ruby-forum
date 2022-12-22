@@ -11,9 +11,9 @@
 		%h3 Répondre
 		= render "comments/form"
 
-	%br/
-	%hr/
-	%br/
-
-	= link_to "Edit", edit_post_path(@post), class: "button"
-	-# = link_to "Delete", post_path(@post), method: :delete, data: { confirm: "Are you sure you want to do this?" }, class: "button"
+		%br/
+		%hr/
+		%br/
+		= link_to "Edit", edit_post_path(@post), class: "button"
+		= link_to "Home", root_path, class: "button"
+		-# = link_to "Delete", post_path(@post), method: :delete, data: { confirm: "Are you sure you want to do this?" }, class: "button"
